@@ -41,15 +41,6 @@ pip install gymnasium "stable-baselines3[extra]" shimmy numpy pandas
 
 ```
 
-**2. Run the "Sanity Check" Training:**
-I created a script that trains the agent for 50k steps to prove it learns.
-
-```bash
-python train_day5.py
-
-```
-
-*You should see the `ep_rew_mean` (mean reward) creeping up in the logs!*
 
 **3. Verify the Environment:**
 If you want to check if the Gym environment is compliant (no bugs/crashes):
@@ -87,4 +78,4 @@ If I had more time, I would:
 
 ---
 
-*Built for the WiDS 2026 Datathon.*
+*Built for the WiDS 2025*
