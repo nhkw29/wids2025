@@ -9,7 +9,7 @@ env = GymTradingEnvironment()
 # If it crashes, post the error.
 print("Running Gymnasium Compliance Check...")
 check_env(env)
-print("✅ Environment Compliance Passed!")
+print("Environment Compliance Passed!")
 
 # 3. Test a quick loop
 obs, _ = env.reset()
@@ -21,4 +21,5 @@ while not done:
     steps += 1
     if steps >= 100: break
 
-print(f"✅ Simulation Loop Passed ({steps} steps). Last Reward: {reward:.4f}")
+
+print(f"Simulation Loop Passed ({steps} steps). Last Reward: {reward:.4f}")
