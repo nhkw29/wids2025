@@ -42,7 +42,7 @@ pip install gymnasium "stable-baselines3[extra]" shimmy numpy pandas
 ```
 
 
-**3. Verify the Environment:**
+**2. Verify the Environment:**
 If you want to check if the Gym environment is compliant (no bugs/crashes):
 
 ```bash
